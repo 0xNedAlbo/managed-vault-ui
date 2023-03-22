@@ -3,7 +3,7 @@ import Vault from './Vault';
 
 export const router = createBrowserRouter([
   {
-    path: '/vault/:address',
+    path: '/:address',
     element: <Vault />
   }
 ]);
